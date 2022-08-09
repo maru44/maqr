@@ -21,4 +21,5 @@ func main() {
 	}
 
 	qrcode.WriteFile(args[0], qrcode.Medium, 256, fileName)
+	fmt.Println(fmt.Sprintf("%s is exported", fileName))
 }
